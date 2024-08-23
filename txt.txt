@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>FinTech</title>
+  </head>
+  <body>
+
+<!--nav-->
+    <nav>
+      <h1>FinTech</h1>
+        <input type="checkbox" id="check">
+          <label for="check" class="icons">
+            <i class='fa-solid fa-bars fa-2x' id="menuIcon"></i>
+              <i class='fa-solid fa-x fa-2x' id="closeIcon" ></i>
+          </label>
+          <div class="links">
+            <ul>
+              <li><a href="" id="home1">HOME</a></li>
+                <li><a href="" id="menu">MENU</a></li>
+                <li><a href="" id="about">ABOUT</a></li>
+                <li><a href="" id="contact">CONTACT</a></li>
+            </ul>
+          </div>
+    </nav>
+<!--home-->
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <h1>Finance Solutions That Grow with You</h1>
+          <p>Enjoy fee-free banking and earn cashback on your everyday purchases</p>
+          <div class="header__btns">
+            <button class="btn">Open Account</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="./images/Group 469294.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">ALL YOUR MONEY <br> NEEDS IN ONE APP</h2>
+      <p class="section__description">
+        Empowering Your Finances with Security and Freedom
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="./images/Frame 1000011472.png" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Expense Tracker</h4>
+              <p>Our Comprehensive selection of medications, supllements and healthcare products</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="./images/cryptoconnect.avif" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Crypto Connection</h4>
+              <p> Offering secure and instant transactions for enhanced financial flexibility.</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="./images/invoice.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Automated Invoicing</h4>
+              <p>Effortlessly manage invoices with our automated system, seamlessly integrating cryptocurrency payments.</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!---->
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">CAN HELP YOU ACHIEVE <br> FINANCIAL SUCCESS!</h2>
+      <p class="section__description">
+        Effortless Plan for your future
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Track Your Spending with Ease</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Easy Reservations, One Click Away</h4>
+            <p>
+              Effortlessly monitor and manage your expenses in real-time, giving you control over your financial health. Stay on top of every transaction to make smarter financial decisions.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Set and Achieve Savings Goals</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Customized Plans Just for You</h4>
+            <p>
+              Define your financial targets and let our expense tracker help you reach them. Whether it's saving for a vacation or building an emergency fund, we keep you on the right path.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Expert Local Insights</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Gain Financial Insights</h4>
+            <p>
+              Analyze your spending habits with detailed reports and personalized insights, empowering you to make informed choices that lead to long-term financial success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--showcase-->
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="./images/Services_V-3_1-removebg-preview.png" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>Take Control of Your Finances for Lasting Success</h4>
+        <p>
+          Our expense tracker is designed to help you achieve financial success by offering a seamless way to monitor your spending, set personalized savings goals, and gain valuable insights into your financial habits.
+        </p>
+        <p>
+          With real-time tracking and detailed reports, you’ll be empowered to make smarter decisions, stay within budget, and work toward your long-term financial goals. Let us guide you on the path to financial stability and success.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Get Started
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+<!---->
+
+<!--Banner-->
+    <section class="section__container banner_container">
+      <div class="banner_card">
+        <h4>50+</h4>
+        <p>Companies Accepted Startup Innovation</p>
+      </div>
+      <div class="banner_card">
+        <h4>120K</h4>
+        <p>Happy Clients</p>
+      </div>
+      <div class="banner_card">
+        <h4>4.8</h4>
+        <p>Overall Ratings</p>
+      </div>
+    </section>
+<!--Banner end-->
+
+    <!--Services section-->
+    <section class="section__container discover__container">
+      <h2 class="section__header">Services</h2>
+      <p class="section__description">
+        Explore our services
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-camera-lens-line"></i></span>
+          <h4>Transfers across the globe are free</h4>
+          <p>
+            Send money anywhere in the world without any additional fees. Enjoy seamless international transactions without worrying about extra costs.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-ship-line"></i></span>
+          <h4>Create a card that is unque and customized.</h4>
+          <p>
+            
+            Design your own card with personalized features to suit your style and needs. Stand out with a card that reflects your individual preferences.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-landscape-line"></i></span>
+          <h4>Hold Money in 30+ Currencies</h4>
+          <p>
+            Manage your funds in over 30 currencies effortlessly. Stay flexible and handle multiple currencies with ease, making global transactions simpler than ever.
+          </p>
+        </div>
+      </div>
+    </section>
+ <!--Services section end-->
+    
+ <!--Footer-->
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">FinTech</a>
+          </div>
+          <p>
+            Managing finances just got simpler and smarter! Our automated invoicing system seamlessly integrates with cryptocurrency, allowing you to streamline payments and improve cash flow management with cutting-edge technology.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Serice</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@tadashi
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe our NewsLetter</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © Tadashi. All rights reserved.
+      </div>
+    </footer>
+<!--Footer end-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --primary-color: #121E30;
+  --primary-color-dark: #121E30;
+  --text-dark: #0a0a0a;
+  --text-light: #737373;
+  --extra-light: #f3f4f6;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section__description {
+  max-width: 600px;
+  margin-inline: auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* nav underline hover effect */
+#home1::after {
+   content: "";
+    background: #121E30;
+    width: 0px;
+    height: 5px;
+    position: absolute;
+    margin-left: 28.3rem;
+    bottom: 0;
+    left:33%;
+    top: 9%;
+    border-radius: 50px;
+    transition: 600ms;
+}
+#home1:hover::after{
+  width: 48px;
+}
+#menu::after {
+  content: "";
+   background: #121E30;
+   width: 0px;
+   height: 5px;
+   position: absolute;
+   margin-left: 27.9rem;
+   bottom: 0;
+   left:39%;
+   top: 9%;
+   border-radius: 50px;
+   transition: 600ms;
+}
+#menu:hover::after{
+ width: 46px;
+}
+
+#about::after {
+  content: "";
+   background: #121E30;
+   width: 0px;
+   height: 5px;
+   position: absolute;
+   margin-left: 27.3rem;
+   bottom: 0;
+   left:45%;
+   top: 9%;
+   border-radius: 50px;
+   transition: 600ms;
+}
+#about:hover::after{
+ width: 48px;
+}
+
+#contact::after {
+  content: "";
+   background: #121E30;
+   width: 0px;
+   height: 5px;
+   position: absolute;
+   margin-left: 27rem;
+   bottom: 0;
+   left:51%;
+   top: 9%;
+   border-radius: 50px;
+   transition: 600ms;
+}
+#contact:hover::after{
+ width:68px;
+}
+
+/* nav */
+
+nav h1 {
+  font-size: 30px;
+  cursor: pointer;
+}
+.links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 40px;
+}
+nav ul li {
+  padding: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+nav h1 {
+  padding: 10px 0px 0px 40px ;
+}
+#check {
+  display: none;
+}
+#menuIcon {
+  display: none;
+}
+#closeIcon {
+  display: none;
+}
+.btn {
+  padding: 5px 15px;
+  border: 1px solid yellow;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+.btn:hover {
+  color: black;
+  background-color: yellow;
+}
+@media (max-width: 492px) {
+  .hero {
+      width: 100vw;
+      height: 450px;
+  }
+  nav {
+      background-color: rgba(0, 0, 0, 0.344);
+      padding-bottom: 10px;
+  }
+  .home {
+      width: 300px;
+      margin: 40px 0px 0px 40px;
+  }
+  .container {
+      width: 100%;
+  }
+  #menuIcon {
+      display: block;
+      font-size: 40px;
+      margin: 10px 10px 0px 0px;
+  }
+  #closeIcon {
+      display: none;
+      font-size: 40px;
+      margin: 10px 10px 0px 0px;
+  }
+  .links {
+      display: none;
+      position: absolute;
+      top: 8%;
+      left: 0%;
+      width: 100%;
+      background-color: rgb(255, 255, 255)
+  }
+  .links ul {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-right: 0px;
+  }
+  .links ul li {
+      padding: 0px 10px 0px 0px;
+  }
+  .links ul li a {
+      color: rgb(0, 0, 0);
+      display: block;
+      text-align: center;
+      font-weight: 600;
+      padding: 10px 0px 10px 0px;
+  }
+  #check:checked ~ .icons #menuIcon {
+      display: none;
+  }
+  #check:checked ~ .icons #closeIcon {
+      display: inline;
+  }
+  #check:checked ~ .links {
+      display: block;
+  }
+}
+.header__container {
+  display: grid;
+}
+
+.header__content {
+  padding: 4rem 1rem;
+}
+
+.header__content p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  line-height: 5.5rem;
+  text-align: center;
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header__btns .btn {
+  padding: 1rem 2.1rem;
+}
+
+.header__btns a {
+  padding: 9px 13px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  background-color: var(--white);
+  border-radius: 100%;
+}
+
+.header__btns a:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+
+.destination__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem 1rem;
+}
+
+.destination__card img {
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destination__card__details {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.destination__card__details h4 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  columns: var(--text-dark);
+}
+
+.destination__card__details p {
+  columns: var(--text-light);
+}
+
+.destination__rating {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+.journey__grid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 0 1rem;
+}
+
+.journey__card {
+  position: relative;
+  isolation: isolate;
+  padding-top: 4rem;
+
+}
+
+.journey__card__bg {
+  padding: 2rem;
+  background-color: var(--extra-light);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.journey__card__bg span {
+  display: inline-block;
+  margin-bottom: 4rem;
+  font-size: 1.75rem;
+  color: var(--primary-color);
+}
+
+.journey__card__bg h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.journey__card__content {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  transition: 0.3s;
+}
+
+
+
+.journey__card__content span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 7px 9px;
+  font-size: 1rem;
+  color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 100%;
+}
+
+.journey__card__content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.journey__card__content p {
+  color: var(--extra-light);
+}
+
+.showcase__container {
+  display: grid;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.showcase__image img {
+  max-width: 400px;
+  margin-inline: auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.showcase__content h4 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.showcase__content p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+/* banner */
+.banner_container {
+  display: grid;
+  gap: 2rem;
+}
+
+.banner_card {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: var(--extra-light);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner_card h4 {
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.banner_card p {
+  color: rgb(107, 27, 168);
+  font-weight: 600;
+}
+
+.banner_card:hover{
+  transition: transform 0.2s ease-in-out;
+}
+.banner_card:hover{
+  transform: translateY(1rem);
+}
+
+/* service section */
+.discover__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.discover__card {
+  padding: 2rem 1rem;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 1rem;
+}
+
+.discover__card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.discover__card span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  background-color: rgba(40, 135, 255, 0.1);
+  border-radius: 100%;
+}
+
+.discover__card h4 {
+  max-width: 150px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.destination__card p {
+  color: var(--text-light);
+}
+
+
+footer {
+  background-color: var(--extra-light);
+}
+
+.footer__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.footer__col p {
+  max-width: 300px;
+  margin-block: 2rem;
+  color: var(--text-light);
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer__socials a {
+  display: inline-block;
+  padding: 7px 10px;
+  font-size: 1.25rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.footer__socials a:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.footer__col h4 {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-light);
+}
+
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+
+.footer__links a span {
+  font-size: 1.25rem;
+}
+
+.footer__col form {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__col input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background-color: var(--white);
+  border: 1px solid var(--text-light);
+  border-radius: 5px;
+}
+
+.footer__col input::placeholder {
+  color: var(--text-light);
+}
+
+.footer__col .btn {
+  border-radius: 5px;
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+@media (width > 540px) {
+  .destination__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .journey__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .showcase__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .banner__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .discover__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__col:last-child {
+    grid-area: 2/1/3/2;
+  }
+}
+
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .nav__header {
+    flex: 1;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__logo .logo {
+    color: var(--text-dark);
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    width: fit-content;
+    padding: 0;
+    flex-direction: row;
+    background-color: transparent;
+    transform: none !important;
+  }
+
+  .nav__links a {
+    color: var(--text-dark);
+  }
+
+  .nav__links a:hover {
+    color: var(--primary-color);
+  }
+
+  .nav__links li:last-child {
+    display: none;
+  }
+
+  .nav__btns {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav__btns button {
+    padding: 0.75rem 2rem;
+    background-color: var(--text-dark);
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  .header__container {
+    grid-template-columns:
+      minmax(0, 1fr)
+      repeat(5, minmax(0, calc(var(--max-width) / 5)))
+      minmax(0, 1fr);
+  }
+
+  .header__content {
+    grid-column: 2/4;
+    padding-block: 8rem;
+  }
+
+  .header__content :is(p, h1) {
+    text-align: left;
+  }
+
+  .header__btns {
+    justify-content: flex-start;
+  }
+
+  .header__image {
+    grid-column: 5/8;
+    position: relative;
+    isolation: isolate;
+    height: 80%;
+  }
+
+  .header__image img {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    height: 100%;
+    width: unset;
+  }
+
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .journey__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .showcase__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .showcase__content {
+    grid-column: 2/4;
+  }
+
+  .banner_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .discover__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__container {
+    /* grid-template-columns: 2fr 1fr 1fr 1.5fr; */
+    grid-template-columns: repeat(4,1fr)
+  }
+
+  .footer__col:last-child {
+    grid-area: unset;
+  }
+}
+
+@media (width > 1200px) {
+  .header__content {
+    padding-inline: 1rem 0;
+  }
+
+  .destination__grid {
+    gap: 2rem;
+  }
+}
+
+/* tetsiomials */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.testimonials .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.testimonial-item p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-item h4 {
+  margin: 10px 0;
+}
+
+.testimonial-item span {
+  color: #888;
+}
+
+
